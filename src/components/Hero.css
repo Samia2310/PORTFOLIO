@@ -283,7 +283,7 @@
 }
 
 .hero-line-2 {
-  font-size: 4.2rem;
+  font-size: 3.7rem;
   font-weight: 900;
   letter-spacing: -3px;
   line-height: 0.88;
@@ -335,9 +335,12 @@
 .hero-description {
   font-size: 0.95rem;
   color: var(--text-secondary);
-  line-height: 1.8;
-  max-width: 480px;
+  line-height: 1.85;
+  max-width: 620px;
+  width: 100%;
   margin: 0;
+  text-align: justify;
+  text-justify: inter-word;
   animation: fadeSlideUp 0.7s ease 0.85s forwards;
   opacity: 0;
 }
@@ -553,7 +556,7 @@
 /* ── Large desktops (1200px) ── */
 @media (max-width: 1200px) {
   .hero-line-2 {
-    font-size: 4rem;
+    font-size: 3.4rem;
   }
 
   .hero-line-3 {
@@ -587,7 +590,7 @@
   }
 
   .hero-line-2 {
-    font-size: 3.8rem;
+    font-size: 3.2rem;
     letter-spacing: -3px;
   }
 
@@ -743,7 +746,7 @@
   }
 
   .hero-line-2 {
-    font-size: 2.9rem;
+    font-size: 2.6rem;
     letter-spacing: -2px;
   }
 
@@ -831,7 +834,7 @@
   }
 
   .hero-line-2 {
-    font-size: 2.4rem;
+    font-size: 2.15rem;
     letter-spacing: -1.5px;
   }
 
@@ -891,7 +894,7 @@
   }
 
   .hero-line-2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: -1.2px;
   }
 

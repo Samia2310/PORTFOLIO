@@ -58,6 +58,8 @@
   font-size: 1rem;
   color: var(--text-secondary);
   line-height: 1.8;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .about-info {
@@ -201,6 +203,8 @@
     font-size: 0.92rem;
     line-height: 1.78;
     color: var(--text-secondary);
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   .mobile-divider {
@@ -255,7 +259,11 @@
   .about-container { padding: 0 1.4rem; }
 
   .mobile-header h2 { font-size: 1.5rem; }
-  .mobile-header p { font-size: 0.87rem; }
+  .mobile-header p {
+    font-size: 0.87rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
 
   .info-item { padding: 0.75rem 0.85rem; border-radius: 10px; }
   .info-label { font-size: 0.68rem; }
@@ -274,7 +282,11 @@
   .about-container { padding: 0 1.1rem; }
 
   .mobile-header h2 { font-size: 1.3rem; }
-  .mobile-header p { font-size: 0.82rem; }
+  .mobile-header p {
+    font-size: 0.82rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
 
   .info-label { font-size: 0.65rem; }
   .info-value { font-size: 0.83rem; }

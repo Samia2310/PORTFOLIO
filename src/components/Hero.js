@@ -62,29 +62,26 @@ export default function Hero({ dark, toggleTheme }) {
 
             <div className="hero-subtitle-row">
               <span className="hero-subtitle-accent" />
-              <h2 className="hero-subtitle">AI/ML & Web Developer</h2>
+              <h2 className="hero-subtitle">Industrial engineer</h2>
             </div>
 
             <p className="hero-description">
-              A final year Computer Science and Engineering student specializing in Artificial
-              Intelligence, Machine Learning, and Web Development. I build
-              intelligent systems and clean web experiences that solve real problems.
+              Industrial & Production  Engineering graduate from KUET with academic exposure to supply chain management, operations planning, inventory control, quality improvement, data analytics, and process optimization. Adept at identifying inefficiencies, analyzing trends, and supporting data-driven decision-making across supply chain and business operations. Demonstrate learning agility, adapting to dynamic environments, and collaborating effectively to deliver measurable results and continuous process improvements.
             </p>
 
             <div className="hero-stack">
-              <span>Python</span>
-              <span>Machine Learning</span>
-              <span>React</span>
-              <span>Deep Learning</span>
-              <span>Django</span>
+              <span>Supply chain management</span>
+              <span>Production Planning</span>
+              <span>Inventory management</span>
+              <span>Logistics analysis</span>
+              <span>Data Analytics</span>
+              <span>Data visualization</span>
             </div>
 
             <div className="hero-social">
-              <a href="https://github.com/Samia2310" target="_blank" rel="noreferrer" className="social-link">GitHub</a>
+              <a href="https://www.linkedin.com/in/kazi-omar-faruk-23a5bb345/" target="_blank" rel="noreferrer" className="social-link">LinkedIn</a>
               <span className="social-divider">|</span>
-              <a href="https://www.linkedin.com/in/samia-tabassum-chowdhury-191229348" target="_blank" rel="noreferrer" className="social-link">LinkedIn</a>
-              <span className="social-divider">|</span>
-              <a href="mailto:samiatchowdhury2310@gmail.com" className="social-link">Email</a>
+              <a href="mailto:koffaruk007@gmail.com" className="social-link">Email</a>
             </div>
 
           </div>

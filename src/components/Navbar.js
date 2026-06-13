@@ -67,7 +67,7 @@ export default function Navbar({ dark, toggleTheme }) {
   return (
     <>
       <nav className={"navbar scrolled " + themeClass}>
-        <a href="#about" className="logo">
+        <a href="#hero" className="logo">
           Kazi Omar Faruk
         </a>
 

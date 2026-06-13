@@ -330,7 +330,7 @@
   color: var(--team-name-hover);
 }
  
-/* GitHub icon */
+/* Team icon */
 .team-gh-icon {
   width: 14px;
   height: 14px;
@@ -381,7 +381,7 @@
   background: var(--team-row-hover);
 }
  
-/* GitHub icon — clickable */
+/* Team link icon */
 .team-member-gh-link {
   display: flex;
   align-items: center;
