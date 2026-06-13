@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Certifications from "./components/Certifications";
+import Experiences from "./components/Experiences";
+import Achievements from "./components/Achievements";
+import Contact from "./components/Contact";
+import "./index.css";
 
 function App() {
+  const [dark, setDark] = useState(true);
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+  }, [dark]);
+
+  const toggleTheme = () => setDark((prev) => !prev);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ minHeight: "100vh", backgroundColor: "var(--bg-primary)", transition: "all 0.3s ease" }}>
+      <Navbar dark={dark} toggleTheme={toggleTheme} />
+      <Hero dark={dark} toggleTheme={toggleTheme} />
+      <About />
+      <Projects />
+      <Certifications />
+      <Experiences />
+      <Achievements />
+      <Contact />
     </div>
   );
 }
