@@ -11,7 +11,7 @@ const projects = [
     type: "Personal Project",
     description:
       "This project is an Excel-based Logistics Analysis Dashboard developed to monitor shipment performance, delivery efficiency, transportation costs, and carrier operations through interactive reporting. The solution addresses the challenge of tracking large volumes of logistics data by transforming raw shipment records into meaningful business insights for faster decision-making.",
-    tags: ["Excel", "Power Query", "Pivot Table", "Iferror", "Index-Match", "Data Visualization"],
+    tags: ["Excel", "Power Query", "Pivot Table", "IFERROR", "INDEX-MATCH", "Data Visualization"],
     liveUrl: "https://excel.cloud.microsoft/open/onedrive/?docId=B8060C3B45534CE5%21sdae60943b91449048f3b6db4b4455bb2&driveId=B8060C3B45534CE5&wdOrigin=OFFICECOM-WEB.REDIRECT%2CAPPHOME-WEB.BANNER.UPLOAD-OCDI&wdPreviousSession=8b2bcf92-565e-483f-8c0c-5e8b733a4854&wdPreviousSessionSrc=AppHomeWeb&ct=1781552523397",
     features: [
       "Shipment performance monitoring",
@@ -25,12 +25,12 @@ const projects = [
   {
     id: 2,
     number: "02",
-    title: "Inventory management system",
+    title: "Inventory Management System",
     subtitle: "Interactive dashboard for inventory management",
     type: "Personal Project",
     description:
       "This project is an Excel-based Inventory Management System designed to streamline product purchasing, sales tracking, inventory monitoring, vendor management, and customer records in a single dashboard. It solves the common challenge of manually tracking stock levels and sales by automatically calculating inventory movement and generating real-time insights. The system uses advanced spreadsheet tools such as Pivot Tables, VLOOKUP, SUMIF, INDEX-MATCH,  IFERROR, and AGGREGATE functions to automate data processing and reporting. A dynamic dashboard provides category-wise sales analysis, stock valuation, and low-stock notifications with vendor contact details for timely reordering.",
-    tags: ["Vlookup", "Sumif", "Index-Match", "Aggregate Functions", "Data Visualization"],
+    tags: ["VLOOKUP", "SUMIF", "INDEX-MATCH", "Aggregate Functions", "Data Visualization"],
     liveUrl: "https://onedrive.live.com/personal/b8060c3b45534ce5/_layouts/15/doc2.aspx?resid=a0180b01-6297-4f09-acb4-171137979928&cid=b8060c3b45534ce5",
     features: [
       "Real-Time Inventory Tracking",
@@ -39,7 +39,7 @@ const projects = [
       "Low Stock Alerts",
       "Maintains supplier and customer information",
       "Interactive Dashboard & Reports",
-      "stock valuation",
+      "Stock valuation",
     ],
     status: "Live",
     year: "2026",
