@@ -30,7 +30,7 @@ const contacts = [
         id: 4,
         name: "Facebook",
         handle: "Kazi Omar Faruk",
-        url: "https://www.facebook.com/Samia.Tabassum.Chowdhury/",
+        url: "https://www.facebook.com/share/1HWjBqVZ7c/",
         icon: (
             <svg viewBox="0 0 24 24" fill="#1877F2" xmlns="http://www.w3.org/2000/svg">
                 <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
@@ -42,7 +42,7 @@ const contacts = [
         id: 5,
         name: "Outlook",
         handle: "Microsoft Outlook",
-        url: "mailto:samia.t.chowdhury@outlook.com",
+        url: "mailto:samia.tchowdhury@outlook.com",
         icon: (
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M24 7.387v12.461a1.2 1.2 0 0 1-1.2 1.2H9.6a1.2 1.2 0 0 1-1.2-1.2V17.4l7.2-4.2-7.2-3.45V7.387a1.2 1.2 0 0 1 1.2-1.187h13.2A1.2 1.2 0 0 1 24 7.387z" fill="#0078D4" />

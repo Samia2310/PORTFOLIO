@@ -47,10 +47,10 @@ export default function About() {
             </div>
 
             <div className="about-buttons">
-              <a href="#contact" className="about-btn primary">
+              <a href="/Faruk_Resume.pdf" className="about-btn primary" target="_blank" rel="noreferrer">
                 Resume
               </a>
-              <a href="https://samia-portfolio-gold.vercel.app" className="about-btn secondary" target="_blank" rel="noreferrer">
+              <a href="https://faruk-portfolio-two.vercel.app/" className="about-btn secondary" target="_blank" rel="noreferrer">
                 Portfolio
               </a>
             </div>
@@ -103,7 +103,7 @@ export default function About() {
           </div>
 
           <div className="about-buttons">
-            <a href="#contact" className="about-btn primary">
+            <a href="/Faruk_Resume.pdf" className="about-btn primary" target="_blank" rel="noreferrer">
               Resume
             </a>
             <a href="https://faruk-portfolio-two.vercel.app/" className="about-btn secondary" target="_blank" rel="noreferrer">

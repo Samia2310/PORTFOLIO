@@ -3,96 +3,48 @@ import { UserIcon, UsersIcon } from "./Icons";
 import "./Projects.css";
 
 const projects = [
-  {
+    {
     id: 1,
     number: "01",
-    title: "Nextern",
-    subtitle: "AI-Powered Campus Internship & Career Platform",
-    type: "Group Project",
-    team: [
-      {
-        name: "Sabbir Akon",
-        email: "sabbir@example.com",
-      },
-      {
-        name: "Jauad Ahmed Sadik",
-        email: "jauadahmedsadik@gmail.com",
-      },
-    ],
+    title: "Logistics Analysis",
+    subtitle: "Interactive dashboard design for logistics analysis",
+    type: "Personal Project",
     description:
-      "A full-stack Next.js 15 web platform built exclusively for university students, campus recruiters, and advisors. Nextern bridges the gap between fresh graduates and employers through AI-powered skill gap analysis, internship fit scoring, smart job recommendations, real-time messaging, and a verified alumni mentorship network. Students get a Graduation Evaluation Report; employers manage entire hiring pipelines; university advisors access AI-generated readiness insights — all in one ecosystem.",
-    tags: ["Next.js 15", "TypeScript", "MongoDB", "Tailwind CSS", "Gemini AI", "Groq", "Pusher", "NextAuth.js", "Uploadthing", "Google Calendar"],
-    liveUrl: "#",
+      "This project is an Excel-based Logistics Analysis Dashboard developed to monitor shipment performance, delivery efficiency, transportation costs, and carrier operations through interactive reporting. The solution addresses the challenge of tracking large volumes of logistics data by transforming raw shipment records into meaningful business insights for faster decision-making.",
+    tags: ["Excel", "Power Query", "Pivot Table", "Iferror", "Index-Match", "Data Visualization"],
+    liveUrl: "https://excel.cloud.microsoft/open/onedrive/?docId=B8060C3B45534CE5%21sdae60943b91449048f3b6db4b4455bb2&driveId=B8060C3B45534CE5&wdOrigin=OFFICECOM-WEB.REDIRECT%2CAPPHOME-WEB.BANNER.UPLOAD-OCDI&wdPreviousSession=8b2bcf92-565e-483f-8c0c-5e8b733a4854&wdPreviousSessionSrc=AppHomeWeb&ct=1781552523397",
     features: [
-      "AI skill gap analysis & internship fit scoring",
-      "Smart personalized job recommendations",
-      "Real-time messaging with Pusher",
-      "Alumni mentorship network with video sessions",
-      "Graduation Evaluation Report (GER) generation",
+      "Shipment performance monitoring",
+      "Delivery time analysis",
+      "Trend visualization",
+      "Dynamic reporting",
     ],
-    status: "In Progress",
+    status: "Live",
     year: "2026",
   },
   {
     id: 2,
     number: "02",
-    title: "Scramble Puzzle",
-    subtitle: "Interactive Slide Puzzle Game",
+    title: "Inventory management system",
+    subtitle: "Interactive dashboard for inventory management",
     type: "Personal Project",
     description:
-      "A fully-featured sliding puzzle game built with React, featuring 50 curated images, 4 difficulty levels (2×2 to 5×5), high score tracking via localStorage, sound effects, and a solvability algorithm using inversion count theory. Players can select images, shuffle tiles, and compete for the lowest move count.",
-    tags: ["React", "JavaScript", "CSS", "Game Dev", "Algorithm"],
-    liveUrl: "#",
+      "This project is an Excel-based Inventory Management System designed to streamline product purchasing, sales tracking, inventory monitoring, vendor management, and customer records in a single dashboard. It solves the common challenge of manually tracking stock levels and sales by automatically calculating inventory movement and generating real-time insights. The system uses advanced spreadsheet tools such as Pivot Tables, VLOOKUP, SUMIF, INDEX-MATCH,  IFERROR, and AGGREGATE functions to automate data processing and reporting. A dynamic dashboard provides category-wise sales analysis, stock valuation, and low-stock notifications with vendor contact details for timely reordering.",
+    tags: ["Vlookup", "Sumif", "Index-Match", "Aggregate Functions", "Data Visualization"],
+    liveUrl: "https://onedrive.live.com/personal/b8060c3b45534ce5/_layouts/15/doc2.aspx?resid=a0180b01-6297-4f09-acb4-171137979928&cid=b8060c3b45534ce5",
     features: [
-      "50 curated puzzle images",
-      "4 difficulty levels",
-      "High score tracking",
-      "Sound effects",
-      "Solvability algorithm",
+      "Real-Time Inventory Tracking",
+      "Monitors stock availability",
+      "Records and analyzes all sales and purchase transactions in one system",
+      "Low Stock Alerts",
+      "Maintains supplier and customer information",
+      "Interactive Dashboard & Reports",
+      "stock valuation",
     ],
     status: "Live",
-    year: "2025",
+    year: "2026",
   },
-  {
-    id: 3,
-    number: "03",
-    title: "QR Code Generator",
-    subtitle: "URL to QR Code Web Tool",
-    type: "Personal Project",
-    description:
-      "A sleek, browser-based QR code generator that instantly converts any URL into a high-resolution, scannable QR code. Built with vanilla HTML, CSS, and JavaScript featuring a glassmorphism UI design, animated entrance effects, and responsive layout. Users can generate and download QR codes in PNG format with a single click.",
-    tags: ["HTML", "CSS", "JavaScript", "QR Code", "Glassmorphism"],
-    liveUrl: "#",
-    features: [
-      "Instant QR code generation",
-      "PNG download support",
-      "Glassmorphism UI design",
-      "Responsive for all devices",
-      "Enter key shortcut support",
-    ],
-    status: "Live",
-    year: "2025",
-  },
-  {
-    id: 4,
-    number: "04",
-    title: "Quick Calendar",
-    subtitle: "Multi-Calendar Generator & Date Converter",
-    type: "Personal Project",
-    description:
-      "A feature-rich calendar web app supporting three calendar systems: Gregorian (English), Bengali (Bangabda), and Arabic (Hijri). Users can generate full-year calendars, convert dates across all three systems, check leap years, and read historical notes about each calendar. Includes dark mode, a draggable info note panel, and leap year visual theming.",
-    tags: ["HTML", "CSS", "JavaScript", "Date Algorithm", "Multi-language"],
-    liveUrl: "#",
-    features: [
-      "3 calendar systems supported",
-      "Cross-calendar date conversion",
-      "Leap year detection & theming",
-      "Draggable history notes panel",
-      "Dark mode support",
-    ],
-    status: "Live",
-    year: "2025",
-  },
+  
 ];
 
 export default function Projects() {
@@ -113,8 +65,7 @@ export default function Projects() {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="projects-subtitle">
-            A collection of things I've built. From games to intelligent systems.
-            Each project reflects a problem I wanted to solve.
+            A collection of things I've built. Developed interactive Excel dashboards and automated reporting systems to improve operational efficiency and data driven decision making.
           </p>
         </div>
 
@@ -248,13 +199,13 @@ export default function Projects() {
                   className="project-link-btn primary"
                 >
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                    <polyline points="15 3 21 3 21 9" />
-                    <line x1="10" y1="14" x2="21" y2="3" />
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <path d="M14 2v6h6" />
+                    <path d="M9 13h6" />
+                    <path d="M9 17h6" />
                   </svg>
-                  Live Demo
+                  View Project
                 </a>
-
               </div>
             </div>
           ))}

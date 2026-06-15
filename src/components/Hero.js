@@ -62,7 +62,7 @@ export default function Hero({ dark, toggleTheme }) {
 
             <div className="hero-subtitle-row">
               <span className="hero-subtitle-accent" />
-              <h2 className="hero-subtitle">Industrial engineer</h2>
+              <h2 className="hero-subtitle">Industrial Engineer</h2>
             </div>
 
             <p className="hero-description">

@@ -3,53 +3,23 @@ import "./Experiences.css";
 const experiences = [
   {
     id: 1,
-    role: "Co-instructor",
-    org: "RSML – Residential Semester Machine Learning",
-    duration: "Nov 2025 – Jan 2026",
-    type: "Teaching",
+    role: "Inventory Coordinator",
+    org: "Kazi Farms Kitchen Franchise — Satkhira, Khulna",
+    duration: "2025 – 2026",
+    type: "Professional",
     description:
-      "Co-instructed the Residential Semester Machine Learning course, guiding students through foundational and applied ML concepts with hands-on sessions and mentorship.",
-    tags: ["Machine Learning", "Teaching", "Mentorship"],
+      "Managed inventory records for over 20 SKUs using Microsoft Excel. This helped track stock movements and sales transactions accurately. I identified inventory consumption and sales trends, assessed risks of stockouts, and ensured products were replenished on time.",
+    tags: ["Inventory Management", "Excel", "Supply Chain"],
   },
   {
     id: 2,
-    role: "Leadership",
-    org: "BUCC Upgrade Hour Program",
-    duration: "2025",
-    type: "Leadership",
-    description:
-      "Served as Team Leader for the BRAC University Computer Club's Upgrade Hour Program, coordinating team efforts and fostering a collaborative learning environment.",
-    tags: ["Team Lead", "Program Management", "BUCC"],
-  },
-  {
-    id: 3,
     role: "Senior Executive",
-    org: "BRAC University Computer Club",
-    duration: "2024 – 2025",
-    type: "Club",
+    org: "Dream — Khulna",
+    duration: "2025 – 2026",
+    type: "Volunteering",
     description:
-      "Held a senior executive position at BUCC, contributing to club operations, event planning, and the growth of the university's tech community.",
-    tags: ["Executive", "Event Planning", "Community"],
-  },
-  {
-    id: 4,
-    role: "Volunteer",
-    org: "TECHCONNECTS – Engineering & CS Career Fair 2024",
-    duration: "2024",
-    type: "Volunteer",
-    description:
-      "Volunteered at TECHCONNECTS, one of the largest engineering and computer science career fairs, assisting with event coordination and connecting students with industry professionals.",
-    tags: ["Career Fair", "Volunteering", "Networking"],
-  },
-  {
-    id: 5,
-    role: "Volunteer",
-    org: "VNSC – Dhanmondi Branch Silver Jubilee Celebration",
-    duration: "2020",
-    type: "Volunteer",
-    description:
-      "Participated as a volunteer in the Silver Jubilee Celebration of the Dhanmondi Branch of VNSC, supporting event logistics and community engagement activities.",
-    tags: ["Community", "Event Support", "Volunteering"],
+      "It's a voluntary club at KUET that facilitates blood donation support. I coordinated with donors, recipients, and volunteers to provide timely blood donation support for those in need.",
+    tags: ["Volunteer Coordination", "Blood Donation", "Community Support"],
   },
 ];
 
@@ -98,8 +68,8 @@ export default function Experience() {
             Experience &amp; <span className="gradient-text">Leadership</span>
           </h2>
           <p className="exp-subtitle">
-            Roles I've held beyond the classroom — from teaching ML to leading
-            teams and building community.
+            Roles I've held beyond the classroom — from managing inventory
+            operations to coordinating community support.
           </p>
         </div>
 
